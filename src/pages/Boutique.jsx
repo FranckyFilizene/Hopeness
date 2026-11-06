@@ -18,9 +18,9 @@ import basket2 from "../assets/Basket2.webp";
 import basket3 from "../assets/basket3.webp";
 import shirt1 from "../assets/shirtRose.webp";
 import shirt2 from "../assets/shirtGrenat.webp";
-import Polo2 from "../assets/polo2.webp";
-import Polo1 from "../assets/polo1.webp";
-import basket from "../assets/Herobasket.webp";
+import Polo2 from "../assets/Polo2.webp";
+import Polo1 from "../assets/Polo1.webp";
+import basket from "../assets/HeroBasket.webp";
 
 import { translate as tr } from "../i18n/i18n";
 

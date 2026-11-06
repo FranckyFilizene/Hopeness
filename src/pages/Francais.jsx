@@ -12,7 +12,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import img1 from '../assets/ImFrancais.webp';
 import img2 from '../assets/ImFrancais2.webp';
 import img3 from '../assets/FGCN9333.webp';
-import img4 from '../assets/Imfrancais5.webp';
+import img4 from '../assets/imfrancais5.webp';
 
 import niveaux from '../data/niveaux';
 

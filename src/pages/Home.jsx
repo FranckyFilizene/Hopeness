@@ -4,7 +4,7 @@ import React from 'react';
 import Logohop from '../assets/Hero.webp';
 import vetement from '../assets/vetementH.webp';
 import { Link } from 'react-router-dom';
-import Langue from '../assets/coursLangues.webp';
+import Langue from '../assets/CoursLangues.webp';
 import Mec from '../assets/Meca.webp';
 import info from '../assets/informatique.webp';
 
