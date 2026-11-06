@@ -1,10 +1,10 @@
-import img1 from '../assets/realisation1.jpg'
-import img3 from '../assets/realisation3.jpeg'
-import img2 from '../assets/realisation2.jpg'
-import build1 from '../assets/build1.jpg'
-import build2 from '../assets/build2.jpg'
-import build3 from '../assets/build3.jpg'
-import confec from '../assets/textile.jpg';
+import img1 from '../assets/realisation1.webp'
+import img3 from '../assets/realisation3.webp'
+import img2 from '../assets/realisation2.webp'
+import build1 from '../assets/build1.webp'
+import build2 from '../assets/build2.webp'
+import build3 from '../assets/build3.webp'
+import confec from '../assets/textile.webp';
 
 import { Link } from 'react-router-dom';
 import service from '../data/service';

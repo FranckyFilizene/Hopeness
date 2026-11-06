@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion, useReducedMotion } from 'framer-motion';
 import Navbar from './components/Navbar';
-import ScrolltoTop from './components/ScrollToTop';
+import ScrolltoTop from './components/ScrolltoTop.jsx';
 import Home from './pages/Home';
 import Francais from './pages/Francais';
 import Anglais from './pages/Anglais';
@@ -58,7 +58,7 @@ function App() {
     <Router>
 
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-      <div className='min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300'>
+      <div className='min-h-screen overflow-x-clip bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300'>
 
         <Routes>
           <Route path="/" element={<Home/>} />

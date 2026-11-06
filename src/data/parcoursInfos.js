@@ -1,5 +1,5 @@
-import parc1 from '../assets/Parc1.png';
-import parc2 from '../assets/Parc2.png';
+import parc1 from '../assets/Parc1.webp';
+import parc2 from '../assets/Parc2.webp';
 
 const parcoursInfos = [
     {

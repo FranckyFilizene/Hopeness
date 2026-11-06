@@ -11,7 +11,7 @@ import {
   FaCheckCircle,
 } from "react-icons/fa";
 
-import HeroCostard from "../assets/HeroCostard.jpg";
+import HeroCostard from "../assets/HeroCostard.webp";
 import Costard1 from "../assets/Costard1.webp";
 import Costard2 from "../assets/Costard2.webp";
 import basket2 from "../assets/Basket2.webp";

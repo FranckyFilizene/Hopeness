@@ -3,9 +3,9 @@ import abouts from '../data/about.js';
 import { FaHandshake } from 'react-icons/fa6';
 import { GrGroup } from 'react-icons/gr';
 import { GiIdea } from 'react-icons/gi';
-import cfp1 from '../assets/CPF.jpg'
-import cfp2 from '../assets/CFP2.jpg'
-import cfp3 from '../assets/CFP3.jpg'
+import cfp1 from '../assets/CPF.webp'
+import cfp2 from '../assets/CFP2.webp'
+import cfp3 from '../assets/CFP3.webp'
 import { useTranslation } from 'react-i18next';
 import { translate as tr } from '../i18n/i18n';
 

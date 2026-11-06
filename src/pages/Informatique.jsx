@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import Ifor from "../assets/HeroI.jpg";
-import img1 from "../assets/info1.jpg";
-import img2 from "../assets/info6.jpg";
-import img3 from "../assets/info4.png";
-import img4 from "../assets/info5.jpg";
+import Ifor from "../assets/HeroI.webp";
+import img1 from "../assets/info1.webp";
+import img2 from "../assets/info6.webp";
+import img3 from "../assets/info4.webp";
+import img4 from "../assets/info5.webp";
 import formationInfo from "../data/formationInfo";
 import parcoursInfos from "../data/parcoursInfos";
 import { MdKeyboardArrowRight } from "react-icons/md";
