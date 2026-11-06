@@ -21,9 +21,9 @@ const AssistantIA = () => {
    chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   },[messages, isLoading]);
 
-  const apiBaseUrls = [
-    import.meta.env.VITE_API_URL || (import.meta.env.DEV ? 'http://localhost:5000' : ''),
-  ].filter(Boolean);
+  const apiBaseUrl = import.meta.env.DEV
+    ? import.meta.env.VITE_API_URL || 'http://localhost:5000'
+    : '';
 
 
   const handleSendMessage = async (e) => {
@@ -37,30 +37,19 @@ const AssistantIA = () => {
     setIsLoading(true);
 
     try {
-      let lastError = null;
+      const response = await fetch(`${apiBaseUrl}/api/chat`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: userMessage }),
+      });
 
-      for (const apiBaseUrl of apiBaseUrls) {
-        try {
-          const response = await fetch(`${apiBaseUrl}/api/chat`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ message: userMessage }),
-          });
+      const data = await response.json();
 
-          const data = await response.json();
-
-          if (data.reply) {
-            setMessages((prev) => [...prev, { sender: 'ai', text: data.reply }]);
-            return;
-          }
-
-          lastError = new Error(data.error || tr('Oups, je rencontre un petit problème technique.'));
-        } catch (error) {
-          lastError = error;
-        }
+      if (!response.ok || !data.reply) {
+        throw new Error(data.error || tr('Oups, je rencontre un petit problème technique.'));
       }
 
-      setMessages((prev) => [...prev, { sender: 'ai', text: tr(lastError?.message || 'Impossible de joindre mon serveur pour le moment.') }]);
+      setMessages((prev) => [...prev, { sender: 'ai', text: data.reply }]);
     } catch (error) {
       console.error(error);
       setMessages((prev) => [...prev, { sender: 'ai', text: tr(error.message || 'Impossible de joindre mon serveur pour le moment.') }]);
