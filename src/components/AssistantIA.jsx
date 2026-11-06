@@ -65,7 +65,7 @@ const AssistantIA = () => {
           <button
           onClick={()=>setIsOpen(true)}
             aria-label={tr("Ouvrir l'assistant")}
-            className="flex md:h-14 md:w-14 h-12 w-12 items-center justify-center rounded-full bg-green-600 text-white shadow-lg shadow-green-500/30 duration-300 transition-all hover:scale-110 hover:bg-green-500"
+            className="flex h-14 w-14 items-center justify-center rounded-full bg-green-600 text-white shadow-lg shadow-green-500/30 duration-300 transition-all hover:scale-110 hover:bg-green-500"
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="h-6 w-6">
               <path strokeLinecap="round" strokeLinejoin="round" d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a.598.598 0 0 1-.655-.075.598.598 0 0 1-.154-.6a5.85 5.85 0 0 0 .858-2.814C4.07 16.14 3 14.18 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z" />
