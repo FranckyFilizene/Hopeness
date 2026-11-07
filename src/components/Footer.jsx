@@ -83,7 +83,7 @@ export default function Footer() {
         {/* Bas de page (Copyright & Langue) */}
         <div className="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 space-y-3 md:space-y-0">
           <p>{tr("© 2026 HOPENESS. Tous droits réservés.")}</p>
-          <p>{tr("Designed & Developed by ")}<span className='font-bold text-white'>View <span className='text-sky-600'>Tech</span></span></p>
+          <p>{tr("Designed & Developed by ")}<span className='font-bold text-white'><a href="https://francky-rm.vercel.app/">Francky<span className='text-red-600'>RM</span></a></span></p>
           <div className="flex space-x-4 font-semibold">
             <button type="button" onClick={() => i18n.changeLanguage('fr')} aria-label="Français"
               className={i18n.language.startsWith('fr') ? 'text-emerald-400' : 'text-gray-500'}>FR</button>
