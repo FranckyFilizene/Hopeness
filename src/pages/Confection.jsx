@@ -1,6 +1,6 @@
 import img1 from '../assets/realisation1.webp'
 import img3 from '../assets/Tee-shirtB.webp'
-import img2 from '../assets/Tee-ShirtN.webp'
+import img2 from '../assets/Tee-shirtN.webp'
 import img4 from '../assets/realisation3.webp'
 import build1 from '../assets/build1.webp'
 import build2 from '../assets/build2.webp'
