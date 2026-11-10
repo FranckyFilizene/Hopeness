@@ -63,7 +63,7 @@ const Confection = () => {
                             <h1 className='text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl'>
                                 {tr("Confection et Personnalisation")}
                             </h1>
-                            <h2 className='text-lg font-medium text-emerald-300 md:text-xl'>
+                            <h2 className='text-lg font-medium text-emerald-200 md:text-xl'>
                                 {tr("Votre idée, notre savoir-faire !")}
                             </h2>
                             <p className='max-w-xl text-sm leading-relaxed text-slate-200 md:text-base'>
