@@ -1,6 +1,7 @@
 import img1 from '../assets/realisation1.webp'
-import img3 from '../assets/realisation3.webp'
-import img2 from '../assets/realisation2.webp'
+import img3 from '../assets/Tee-shirtB.webp'
+import img2 from '../assets/Tee-ShirtN.webp'
+import img4 from '../assets/realisation3.webp'
 import build1 from '../assets/build1.webp'
 import build2 from '../assets/build2.webp'
 import build3 from '../assets/build3.webp'
@@ -34,7 +35,7 @@ const Confection = () => {
     const galerie = [
         { src: img1, alt: 'Imgage1' },
         { src: img2, alt: 'Imgage2' },
-        { src: img1, alt: 'Imgage3' },
+        { src: img4, alt: 'Imgage3' },
         { src: img3, alt: 'Imgage4' },
     ];
 
