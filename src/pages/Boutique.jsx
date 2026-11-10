@@ -162,7 +162,7 @@ const Boutique = () => {
 
         <div className="absolute -right-32 -top-32 h-96 w-96 rounded-full bg-emerald-800/30 blur-3xl" />
 
-        <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 py-16 sm:px-6 md:grid-cols-2 md:py-24 lg:px-8">
+        <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 py-10 sm:px-6 md:grid-cols-2 md:py-16 lg:px-8">
 
           {/* HERO TEXT */}
 

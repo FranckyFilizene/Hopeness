@@ -181,7 +181,7 @@ const About = () => {
 
                 <div className="absolute right-0 top-0 h-full w-1/2 bg-gradient-to-l from-emerald-600/10 to-transparent" />
 
-                <div className="relative mx-auto max-w-7xl px-20 py-5 sm:px-6 md:py-24 lg:px-8 lg:py-28">
+                <div className="relative mx-auto max-w-7xl px-20 py-10 sm:px-6 md:py-16 lg:px-8">
 
                     <motion.div
                         initial="hidden"
@@ -229,7 +229,7 @@ const About = () => {
                         >
                             <span className="h-1 w-12 rounded-full bg-emerald-500" />
                             <span className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-                                Hopeness — Centre de formation
+                                {tr('Hopeness — Centre de formation')}
                             </span>
                         </motion.div>
 
