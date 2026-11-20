@@ -12,8 +12,8 @@ const infos = [
     {
         icon: MdCall,
         label: "Téléphone",
-        value: "+261 38 48 783 50",
-        href: "tel:+261384878350",
+        value: "+261 34 82 366 71",
+        href: "tel:+261348236671",
     },
     {
         icon: MdEmail,
@@ -24,7 +24,7 @@ const infos = [
     {
         icon: MdAccessTime,
         label: "Horaires",
-        value: "Lun - Ven : 8h - 12h | 14h - 17h",
+        value: "Lun - Samedi : 8h - 12h | 14h - 18h",
     },
 ];
 
